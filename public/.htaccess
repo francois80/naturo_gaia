@@ -1,0 +1,11 @@
+<ifModule mod_rewrite.c>
+    # On active le mod_rewrite
+    RewriteEngine  on
+    # La directive RewriteCond permet de définir une condition d'exécution d'une règle
+    # La règle ne s'applique pas aux urls se terminant par les extensions des fichiers assets
+    RewriteCond %{REQUEST_URI} !\.(?:css|js|jpe?g|gif|png)$ [NC]
+    # les directives RewriteRule permet de définir les règles de reécriture des url
+    # Ici on capture tous ce qui est dans l'url, on le place dans la variable GET p dans la page index.php
+    
+    RewriteRule ^(.*) index.php?p=$1 [QSA]
+</ifModule>
