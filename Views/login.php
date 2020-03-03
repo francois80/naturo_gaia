@@ -6,7 +6,7 @@ require_once ROOT . '/Views/nav.php';
     <div class="row justify-content-center">
         <div class="col-md-6 card mb-5">
             <div class="card-header .z-depth-4 info-color">
-                <h1 class="text-center font-weight-bold text-white">Connexion</h1>
+                <h2 class="text-center font-weight-bold text-white">Connexion</h2>
             </div>
             <form class="card-body" method="POST" action="" novalidate="">
                 <div class="form-group md-form">

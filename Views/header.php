@@ -13,9 +13,15 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <title>Naturo gaïa</title>
-    
+    <title>Natur ' O Gaïa</title>
 </head>
 
 <body>
-    <div class="container-fluid">
+    <header class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center align-items-center">
+        <h1>Natur O Gaîa</h1>
+      </div>
+    </div>
+  </header>
+    <div class="container">

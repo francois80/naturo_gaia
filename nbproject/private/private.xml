@@ -3,24 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/francois/www/naturogaia/Views/header.php</file>
-            <file>file:/home/francois/www/naturogaia/public/index.php</file>
-            <file>file:/home/francois/www/naturogaia/Views/footer.php</file>
-            <file>file:/home/francois/www/naturogaia/Views/nav.php</file>
-            <file>file:/home/francois/www/naturogaia/Config/database.php</file>
-            <file>file:/home/francois/www/naturogaia/public/assets/css/style.css</file>
-            <file>file:/home/francois/www/naturogaia/public/.htaccess</file>
-            <file>file:/home/francois/www/naturogaia/Views/login.php</file>
-            <file>file:/home/francois/www/naturogaia/public/assets/js/script.js</file>
-            <file>file:/home/francois/www/naturogaia/Views/contact.php</file>
-            <file>file:/home/francois/www/naturogaia/Views/home.php</file>
-            <file>file:/home/francois/www/naturogaia/Utils/Database.php</file>
-            <file>file:/home/francois/www/naturogaia/Controllers/homeController.php</file>
-            <file>file:/home/francois/www/naturogaia/Views/naturo.php</file>
-            <file>file:/home/francois/www/naturogaia/Views/massage.php</file>
-            <file>file:/home/francois/www/naturogaia/Views/iridologie.php</file>
-            <file>file:/home/francois/www/naturogaia/Controllers/naturoController.php</file>
-            <file>file:/home/francois/www/naturogaia/Views/aroma.php</file>
+            <file>file:/home/francois/www/naturogaia/Controllers/contactController.php</file>
         </group>
     </open-files>
 </project-private>

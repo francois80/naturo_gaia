@@ -1,6 +1,7 @@
 <?php
-require_once 'header.php';
-require_once 'nav.php';
+
+require_once ROOT . '/Views/header.php';
+require_once ROOT . '/Views/nav.php';
 ?>
 <div id="content" class="row justify-content-around  margeTop">
     <!-- DEBUT TITRE -->
@@ -39,4 +40,4 @@ require_once 'nav.php';
 
 </div>
 <?php
-require_once 'footer.php';
+require_once ROOT . '/Views/footer.php';
