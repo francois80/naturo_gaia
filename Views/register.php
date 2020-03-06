@@ -6,9 +6,9 @@
     <div class="row justify-content-center">
         <div class="col-md-6 card">
             <div class="card-header .z-depth-4 info-color">
-                <h2 class="text-center font-weight-bold text-white">Inscription</h2>
+                <h2 class="text-center font-weight-bold text-white">Sign in</h2>
             </div>
-            <form class="card-body" method="POST" action="" novalidate="">
+            <form class="card-body bg-softGreen" method="POST" action="" novalidate="">
                 <div class="form-group md-form">
                     <label for="firstname">Prénom : </label>
                     <input  autocomplete="false" name="firstname" type="text" class="form-control <?= (isset($isSubmit) && !isset($errors['firstname'])) ? 'is-valid' : '' ?> <?= (isset($isSubmit) && isset($errors['firstname'])) ? 'is-invalid' : '' ?>" id="firstname" required>

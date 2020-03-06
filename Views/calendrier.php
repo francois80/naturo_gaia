@@ -36,7 +36,7 @@ for ($year = $currentYear; $year <= $NextYear; $year ++):
                         echo"";
                     } ?> <?= $selectedYear ?></h2>
             <table class="table table-bordered">
-                <thead>
+                <thead class="bg-sandybrown text-white">
                         <?php
                         //affichage de l'entête du tableau avec les jours de la semaine contenu dans la table $weekDays
                         foreach ($weekDays as $weekDay):
@@ -59,13 +59,13 @@ for ($year = $currentYear; $year <= $NextYear; $year ++):
                             //si le jour ne commence pas un lundi ou si le nombre de cellules est supérieur au nombre de jours dans le mois, on fait des cellules vides
                             if ($firstDayinMonthinWeek > $cell || $cell > $requiredCells) {
                                 ?>
-                                <td class="bg-primary"></td>
+                                <td class="bg-light"></td>
                                 <?php
                             }
                             //sinon on écrit le numéro du jour dans la cellule
                             else {
                                 ?>
-                                <td><?= $day ?></td>
+                                <td class="bg-bisque"><?= $day ?></td>
                                 <?php
                                 $day++;
                             }

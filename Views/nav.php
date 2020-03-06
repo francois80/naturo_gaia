@@ -1,5 +1,5 @@
 <!--Navbar-->
-<nav class="row navbar navbar-expand-lg navbar-dark bg-green sticky-top">
+<nav class="row navbar navbar-expand-lg navbar-dark bg-sandybrown sticky-top">
     <!-- Collapse button -->
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span> Natur'O Gaïa</button>
     <!-- Collapsible content -->

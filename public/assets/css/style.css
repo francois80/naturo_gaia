@@ -35,7 +35,7 @@ h4{
 
 /* HEADER START */
 header {
-	background-image: url(../images/head.jpg);
+	background-image: url(../images/cerises.jpeg);
 	background-position: center;
 	background-size: cover;
 	height: 30vh;
@@ -47,9 +47,9 @@ header>div {
 
 h1 {
 	color: white;
-	font-size: 9rem;
+	font-size: 10rem;
 	-webkit-text-stroke: 2px #4F3423;
-	font-family: "Dancing Script";
+	font-family: 'Berkshire Swash', cursive;
 }
 
 nav li {
@@ -57,14 +57,14 @@ nav li {
 	font-family: "Calistoga";
 }
 
-.bg-green {
+.bg-sandybrown {
 	/* background-color: rgba(79, 52, 35, 1); */
-	background-color: rgba(19, 102, 38, 1);
+	background-color: rgba(188, 143, 143, 0.8);
 }
 
 
-.bg-softGreen{
-    background-color: rgba(207, 249, 207, 0.8);
+.bg-bisque{
+    background-color: rgba(255,228,196, 1);
 }
 /*
 .form-control {
@@ -78,7 +78,7 @@ nav li {
 {
 	/* width: 100%; */
 	margin: auto;
-	background-color: rgba(207, 249, 207, 0.8);
+	background-color: rgba(255,228,196, 1);
 	height:auto;
 	-webkit-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
 	-moz-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
@@ -263,13 +263,13 @@ footer{
 	}
 
 	h1 {
-		font-size: 7rem;
+		font-size: 8rem;
 	}
 }
 
 @media screen and (max-width: 766px) {
 	h1 {
-		font-size: 5rem;
+		font-size: 6rem;
 		-webkit-text-stroke: 1px #4F3423;
 	}
 }
@@ -277,7 +277,7 @@ footer{
 @media screen and (max-width: 375px) {
 
 	h1 {
-		font-size: 3rem;
+		font-size: 3.5rem;
 		-webkit-text-stroke: 1px #4F3423;
 	}
 }
